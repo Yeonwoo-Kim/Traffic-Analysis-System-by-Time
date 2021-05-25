@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: url('https://media.giphy.com/media/MtJvi2bM8UtoY/giphy.gif');
+    background-size: cover;
+}
+#title{
+    color:#949494;
+    text-align: center; 
+    font-size:100px;
+    /* vertical-align: middle;
+    align-content: center; */
+}
+#title_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
